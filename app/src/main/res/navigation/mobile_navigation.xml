@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.ryvk.drifthomeadmin.DashboardFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_drinkers"
+        android:name="com.ryvk.drifthomeadmin.DrinkersFragment"
+        android:label="@string/menu_drinker"
+        tools:layout="@layout/fragment_drinkers" />
+
+    <fragment
+        android:id="@+id/nav_saviours"
+        android:name="com.ryvk.drifthomeadmin.SavioursFragment"
+        android:label="@string/menu_saviour"
+        tools:layout="@layout/fragment_saviours" />
+
+    <fragment
+        android:id="@+id/nav_kyc"
+        android:name="com.ryvk.drifthomeadmin.KycFragment"
+        android:label="@string/menu_kyc"
+        tools:layout="@layout/fragment_kyc" />
+
+    <fragment
+        android:id="@+id/nav_reports"
+        android:name="com.ryvk.drifthomeadmin.ReportsFragment"
+        android:label="@string/menu_kyc"
+        tools:layout="@layout/fragment_reports" />
+</navigation>

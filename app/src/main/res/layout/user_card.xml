@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/driverCardContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/d_lightBlue2"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/account_avatar"
+            app:layout_constraintBottom_toBottomOf="@+id/constraintLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/constraintLayout" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/d_userCard_text_placeholder"
+                app:layout_constraintBottom_toBottomOf="@+id/textView49"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView49"
+                app:layout_constraintTop_toTopOf="@+id/textView49" />
+
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/lexend_deca"
+                android:text="@string/d_userCard_text2"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lexend_deca"
+                android:text="@string/d_userCard_text1"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="@string/d_userCard_text_placeholder"
+                app:layout_constraintBottom_toBottomOf="@+id/textView15"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView15"
+                app:layout_constraintTop_toTopOf="@+id/textView15"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button3"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/lexend_deca"
+            android:text="@string/d_userCard_btn1_block"
+            android:textColor="@color/d_red1"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:cornerRadius="@dimen/d_button_corner_radius"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+            app:layout_constraintStart_toStartOf="@+id/constraintLayout"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+            app:strokeColor="@color/d_red1" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/forward" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

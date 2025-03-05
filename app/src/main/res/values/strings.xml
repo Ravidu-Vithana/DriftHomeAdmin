@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Drift Home Admin</string>
+
+    <string name="d_signin_text1">Sign In</string>
+    <string name="d_signin_text2">Email</string>
+    <string name="d_signin_edittext1_placeholder">ex: john@gmail.com</string>
+    <string name="d_signin_text3">Password</string>
+    <string name="d_signin_btn1">Take me Home!</string>
+    <string name="d_signin_btn2">Wait.. I’m new to this!</string>
+
+    <string name="d_otpVerification_verifyEmail">Verify the email</string>
+    <string name="d_otpVerification_verifyLogin">Login Verification</string>
+    <string name="d_otpVerification_text1">Enter the verification code sent to your email.</string>
+    <string name="d_otpVerification_btn1">Verify</string>
+    <string name="d_otpVerification_btn2">Resend Code</string>
+    <string name="d_otpVerification_edittext1_placeholder">******</string>
+
+    <string name="d_home_text1">Dashboard</string>
+    <string name="d_home_text2">Saved Souls Count</string>
+    <string name="d_home_text3">Saviours on duty</string>
+    <string name="d_home_text4">Total Reports</string>
+    <string name="d_home_text5">Pending KYC Verifications</string>
+    <string name="d_home_amounts_placeholder">__</string>
+    <string name="d_home_btn1">View Drinkers</string>
+    <string name="d_home_btn2">View Saviours</string>
+    <string name="d_home_btn3">View Pending KYC</string>
+    <string name="d_home_btn4">Logout</string>
+
+
+    <string name="d_drinkers_text1">Drinkers</string>
+    <string name="d_drinkers_edittext1_placeholder">ex. john@gmail.com</string>
+    <string name="d_drinkersFragment_text1">No Drinkers Available</string>
+
+    <string name="d_saviours_text1">Saviours</string>
+    <string name="d_saviours_edittext1_placeholder">ex. john@gmail.com</string>
+    <string name="d_savioursFragment_text1">No Saviours Available</string>
+
+    <string name="d_userCard_text1">Name</string>
+    <string name="d_userCard_text2">Email</string>
+    <string name="d_userCard_text_placeholder">kumudumallawa@gmail.com</string>
+    <string name="d_userCard_btn1_block">Block</string>
+    <string name="d_userCard_btn1_unblock">Unblock</string>
+
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Drift Home Admin</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_drinker">Drinkers</string>
+    <string name="menu_saviour">Saviours</string>
+    <string name="menu_kyc">KYC</string>
+    <string name="menu_report">Reports</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/dashboard"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:id="@+id/nav_drinkers"
+            android:icon="@drawable/drinker"
+            android:title="@string/menu_drinker" />
+        <item
+            android:id="@+id/nav_saviours"
+            android:icon="@drawable/saviour"
+            android:title="@string/menu_saviour" />
+        <item
+            android:id="@+id/nav_kyc"
+            android:icon="@drawable/kyc"
+            android:title="@string/menu_kyc" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/report"
+            android:title="@string/menu_report" />
+    </group>
+</menu>
